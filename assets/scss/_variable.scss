@@ -1,13 +1,14 @@
 $colors: (
   // base color
-        primary: #047a33,
-        secondary: #545454,
-        tertiary: #f6a80a,
-  // notification color #f6a80a
+        primary: #3970d4,
+        secondary: #aea9a9,
+
+  // notification color
         success: #47c363,
         info: #3abaf4,
         warning: #ffa426,
         danger: #fc544b,
+
   // base coulor
         light: #e3eaef,
         grey: #6c757d,
@@ -18,16 +19,8 @@ $colors: (
         body: #ececec,
         font: #6c757d,
         fontdark: #34395e,
-  // Form Control
-        formcontrol_normal_background: none,
-        formcontrol_normal_border: #A6A5A3,
-        formcontrol_focus_background: none,
-        formcontrol_focus_border: #454293,
-  // Utilities
-        section_title_line: #545454,
 );
 
-$font_family: sans-serif;
 $font_weight: 400;
 $font_size: 14px;
 
