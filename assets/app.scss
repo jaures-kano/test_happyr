@@ -1,7 +1,21 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~bootstrap/scss/bootstrap";
 @import "~@fortawesome/fontawesome-free/css/fontawesome.min.css";
 @import "./scss/style.scss";
 
 body{
   background-color: #F5F5F5;
+}
+
+footer{
+  background-image: url("../public/images/dna_background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 196px;
+  width: 100%;
+  left: 0px;
+  margin-top: 80px;
+  border-radius: 0px;
+  -webkit-box-shadow: inset -1px -172px 59px -71px rgba(0,0,0,0.53);
+  -moz-box-shadow: inset -1px -172px 59px -71px rgba(0,0,0,0.53);
+  box-shadow: inset -1px -172px 59px -71px rgba(0,0,0,0.53);
 }
