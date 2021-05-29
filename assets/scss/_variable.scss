@@ -1,0 +1,41 @@
+$colors: (
+  // base color
+        primary: #047a33,
+        secondary: #545454,
+        tertiary: #f6a80a,
+  // notification color #f6a80a
+        success: #47c363,
+        info: #3abaf4,
+        warning: #ffa426,
+        danger: #fc544b,
+  // base coulor
+        light: #e3eaef,
+        grey: #6c757d,
+        whitesmoke: #f7f9f9,
+        dark: #191d21,
+        white: #ffffff,
+        muted: #98a6ad,
+        body: #ececec,
+        font: #6c757d,
+        fontdark: #34395e,
+  // Form Control
+        formcontrol_normal_background: none,
+        formcontrol_normal_border: #A6A5A3,
+        formcontrol_focus_background: none,
+        formcontrol_focus_border: #454293,
+  // Utilities
+        section_title_line: #545454,
+);
+
+$font_family: sans-serif;
+$font_weight: 400;
+$font_size: 14px;
+
+$grid-breakpoints: (
+        xs: 0,
+        sm: 576px,
+        md: 768px,
+        lg: 992px,
+        xl: 1200px
+) !default;
+
